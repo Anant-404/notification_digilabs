@@ -64,7 +64,7 @@ export default function Home() {
 
     if ('serviceWorker' in navigator) {
       const registration = await navigator.serviceWorker.ready;
-      registration.showNotification('Hello from Next.js!', {
+      registration.showNotification('Hello from Anant!', {
         body: 'You clicked the notification button!',
         icon: '/web-app-manifest-192x192.png',
       });
@@ -101,8 +101,8 @@ export default function Home() {
         </div>
 
         <div className="text-center space-y-4 mb-8">
-          <h2 className="text-2xl font-bold text-white">Lorem Ipsum...</h2>
-          <p className="text-gray-400">Lorem ipsum dolor sit amet.</p>
+          <h2 className="text-2xl font-bold text-white">DiGiLABS_Assignment</h2>
+          <p className="text-gray-400">pwa using Nextjs</p>
         </div>
 
         <button
@@ -115,7 +115,7 @@ export default function Home() {
                    duration-300 transform hover:scale-[1.02] active:scale-[0.98]
                    shadow-lg hover:shadow-purple-500/25"
         >
-          Send Notification
+          click me
         </button>
       </div>
     </main>
