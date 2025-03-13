@@ -80,7 +80,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#1a1a2e] to-[#16213e] text-white flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-md mx-auto bg-[#1a1a2e]/50 backdrop-blur-lg rounded-3xl p-8 shadow-2xl border border-purple-500/20">
+      {/* <div className="w-full max-w-md mx-auto bg-[#1a1a2e] rounded-3xl p-8"> */}
         <h1 className="text-2xl font-bold text-center mb-8 text-purple-300">Hola!</h1>
 
         <div className="relative w-32 h-32 mx-auto mb-12">
@@ -110,14 +110,14 @@ export default function Home() {
             handleNotification();
             sendNotification();
           }}
-          className="w-full py-4 px-6 bg-purple-600 hover:bg-purple-700 
-                   rounded-xl text-white font-semibold transition-all 
-                   duration-300 transform hover:scale-[1.02] active:scale-[0.98]
-                   shadow-lg hover:shadow-purple-500/25"
+          className="w-full sm:w-90 py-4 px-6 bg-purple-600 hover:bg-purple-700 
+           rounded-xl text-white font-semibold transition-all 
+           duration-300 transform hover:scale-[1.02] active:scale-[0.98]
+           shadow-lg hover:shadow-purple-500/25"
         >
           click me
         </button>
-      </div>
+      {/* </div> */}
     </main>
   );
 }
